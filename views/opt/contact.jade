@@ -1,0 +1,22 @@
+extends layout
+
+block content
+    h1 #{title}
+    h2 Customer List
+    ul
+        each user in users
+            li= user.first_name + " " + user.last_name
+    ul
+    h2 Add New Customer
+    form(method='POST' action='/users/add')
+            div.form-group
+                label(for='first_name') First Name: <br>
+                input#name.form-control(type='text', placeholder='Firstname' name='first_name')
+            div.form-group
+                label(for='last_name') Last Name: <br>
+                input#name.form-control(type='text', placeholder='Lastname' name='last_name')
+            div.form-group
+                label(for='email') Email: <br>
+                input#name.form-control(type='text', placeholder='Email' name='email')
+            <br>
+            button.btn.btn-primary(type='submit') Register

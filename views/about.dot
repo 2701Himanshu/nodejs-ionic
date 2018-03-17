@@ -1,0 +1,13 @@
+---
+layout: master.dot
+title: About Us
+---
+
+[[##section1:
+	about us section 1 content
+#]]
+
+[[##section2:
+	about us section 2 content
+	<a href="/">Home</a>
+#]]

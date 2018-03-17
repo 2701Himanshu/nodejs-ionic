@@ -1,0 +1,14 @@
+---
+layout: master.dot
+title: Index Page
+---
+
+[[##section1:
+	Hello from index:section1
+#]]
+
+[[##section2:
+	Hello from index:section2
+	<br>
+	<a href="/about">About Us</a>
+#]]

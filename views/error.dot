@@ -1,0 +1,12 @@
+---
+layout: master.dot
+title: Error Page
+---
+
+[[##section1:
+	error.status
+#]]
+
+[[##section2:
+	error.stack
+#]]
